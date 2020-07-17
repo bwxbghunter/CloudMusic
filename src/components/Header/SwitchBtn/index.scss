@@ -1,0 +1,36 @@
+.bwx-switch-btn {
+    width: 50px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    .switch-btn-pre,.switch-btn-next {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        i {
+            font-size: 14px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        &:active {
+            background-color: rgba(0, 0, 0, 0.1);
+            i {
+                color: #fff;
+            }
+        }
+    }
+    .switch-btn-next {
+        border-left: 1px solid #afafaf;
+    }
+}

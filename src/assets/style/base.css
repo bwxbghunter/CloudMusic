@@ -1,0 +1,40 @@
+/* css默认样式清除 */
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,div,span,a,b,i,strong,em,img,form,input,textarea,table,th,td,section{padding:0; margin:0;}
+html,body{ font-family: PingFangSC-Regular, Microsoft YaHei,Helvetica,"sans-serif"; width:100%; height:100%;overflow:initial; background:#f5f6fa;}
+body{font-size:14px;-webkit-overflow-scrolling:touch;color: #666; min-width: 1240px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; line-height:100%; font-weight:normal;}
+li{ list-style:none;}
+a{ text-decoration:none; display: block; -webkit-tap-highlight-color: rgba(0,0,0,0)}
+a:hover{text-decoration:none !important; cursor: pointer;}
+i,em{ font-style:normal;}
+strong,b{ font-weight:normal;}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; }
+input,button,select,textarea{ resize:none; outline:none; border:none 0;padding:0;font-family:'Microsoft Yahei',sans-serif; }
+input[type="search"]{-webkit-appearance:none;}
+input::-webkit-search-cancel-button {display: none;}
+li{ list-style:none; vertical-align:top;}
+a img{ border:0; }
+img{vertical-align: middle;}
+table{border-collapse:collapse; font-size:100%;font-weight:normal;}
+table,tr,th,td{padding:0; font-size:100%;font-weight:normal;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after,
+.cl:after { display:block;clear:both;content:'';}
+.clearfix,
+.cl { zoom:1;}
+#root {
+  width: 1025px;
+  height: 670px;
+  overflow: hidden;
+  margin: 30px auto;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+}
+.App {
+  width: 100%;
+  height: 100%;
+}
+input::placeholder,
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255,0.6)
+}
