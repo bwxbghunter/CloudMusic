@@ -1,0 +1,62 @@
+.bwx-account-info {
+    height: 365px;
+    width: 275px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    left: -132px;
+    top: 33px;
+    margin: auto;
+    color: #666;
+    background-color: #fff;
+    border-radius: 4px;
+    .account-info__trangle {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-color: transparent transparent  #fff transparent;
+        border-width: 8px;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: transparent;
+        z-index: 1000;
+    }
+    .account-info-name {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        .account-name-img {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .account-in__img {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                background-color: #000;
+                margin-right: 8px;
+            }
+        }
+        .account-sign {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 62px;
+            height: 26px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 0 8px;
+            cursor: pointer;
+            box-sizing: border-box;
+            &:hover {
+                background-color: #f7f7f7;
+            }
+        }
+    }
+}

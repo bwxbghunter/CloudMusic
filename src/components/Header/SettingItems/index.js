@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import AccountInfo from '../AccountInfo'
 import './index.scss'
 class SettingItems extends Component {
     constructor() {
@@ -16,7 +17,11 @@ class SettingItems extends Component {
                <i className="setting-icon special-set iconfont iconenvelope"></i>
                <i className="setting-icon special-set iconfont iconskin"></i>
                <i className="special-set">开通VIP</i>
-               <div className="setting-userinfo">bghunter <span className="userinfo-triangle"></span></div>
+               <div className="setting-userinfo">
+                   bghunter 
+                   <span className="userinfo-triangle"></span>
+                   <AccountInfo />
+                </div>
                <div className="user-icon"></div>
            </div>
         )
