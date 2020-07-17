@@ -15,6 +15,7 @@ class AccountInfo extends Component {
                         <i className="iconfont iconsign"></i>
                         <span>签到</span>
                     </div>
+                    <div className="account-details"></div>
                 </div>
             </div>
         )
